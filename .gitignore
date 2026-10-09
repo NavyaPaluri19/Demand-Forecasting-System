@@ -1,0 +1,38 @@
+# Virtual environments
+forecast-env/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow tracking artifacts
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Data & model files (large / regenerable)
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# Secrets & local config
+.env
+*.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
