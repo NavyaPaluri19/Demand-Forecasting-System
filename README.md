@@ -2,6 +2,7 @@
 
 Store sales forecasting with XGBoost. The trained model is served through a FastAPI service, and a Streamlit dashboard shows a 14-day forecast. Training experiments are tracked with MLflow.
 
+(Includes sample data as well)
 ## Project layout
 
 ```
