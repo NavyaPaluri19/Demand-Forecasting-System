@@ -36,3 +36,10 @@ mlflow.db
 Thumbs.db
 .vscode/
 .idea/
+
+# Keep the trained model needed by the API / Docker image
+!models/*.pkl
+
+# Keep small sample data so the project can be run without the full dataset
+!data/store.csv
+!data/train_sample.csv
